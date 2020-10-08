@@ -10,7 +10,7 @@ int main() {
 	num = &number;
 	printf("olla sekai\n");
 	read(num);
-        printNum(num);
+        printNum(number);
 	return 0;	
 }
 
