@@ -2,17 +2,23 @@
 #include <stdio.h>
 
 void read(int *);
+void printNum(int a);
 
 int main() {
 	int number = 0;
 	int *num = NULL;
 	num = &number;
-	printf("olla sekai");
+	printf("olla sekai\n");
 	read(num);
+        printNum(num);
 	return 0;	
 }
 
 
 void read(int* o){
 	scanf(" %d", o);
+}
+
+void printNum(int a){
+printf(" %d\n",a);
 }
