@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
-	printf("olla world");
+	printf("olla sekai");
 	return 0;
+	
 }
